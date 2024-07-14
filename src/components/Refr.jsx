@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Brand from "../components/Brand";
-import Categories from "../components/Categories";
-import ProductList from "../components/Acproduct";
 
-const Product = ({ items, cart, setCart }) => {
+
+const Refr = ({ items, cart, setCart }) => {
   const [showAll, setShowAll] = useState(false);
 
   const addToCart = (id, price, title, description, imgSrc) => {
@@ -44,7 +42,7 @@ const Product = ({ items, cart, setCart }) => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h2>Top electronic gadgets up to 6 installments</h2>
           {!showAll && (
-            <p style={{color:"purple",paddingLeft:"200px",fontWeight:"bold",cursor:"pointer"}} onClick={() => setShowAll(true)}>
+            <p style={{color:"purple",paddingLeft:"200px",fontWeight:"bold"}} onClick={() => setShowAll(true)}>
               Show All &#10095;
             </p>
           )}
@@ -59,9 +57,9 @@ const Product = ({ items, cart, setCart }) => {
                 <div className="card-body">
                   <h5 className="card-title">{product.title}</h5>
                   <p className="card-text">{product.description}</p>
-                  <p style={{fontWeight:"bold"}}>
+                  <button className="btn btn-primary mx-3">
                     {product.price} ₹
-                  </p>
+                  </button>
                   <button
                     onClick={() => addToCart(product.id, product.price, product.title, product.description, product.imgSrc)}
                     className="btn btn-warning"
@@ -75,12 +73,10 @@ const Product = ({ items, cart, setCart }) => {
         </div>
       </div>
 
-      <Brand style={{marginTop:"5px"}}/>
-      <Categories/>
-    <ProductList/>
+    
 
     </>
   );
 };
 
-export default Product;
+export default Refr;

@@ -1,4 +1,5 @@
 export const items =  [
+ 
     {
       id: 1,
       category: 'mobiles',
@@ -11,7 +12,7 @@ export const items =  [
     {
       id: 5,
       category: 'laptops',
-      title: "Xiaomi [Smartchoice] Notebookpro",
+      title: "Xiaomi [Smartchoice]",
       imgSrc: 'https://m.media-amazon.com/images/I/71TPda7cwUL._SL1500_.jpg',
       amazonLink: 'https://amzn.to/3EzeQaC',
       description: 'Xiaomi [Smartchoice] Notebookpro ',
@@ -23,7 +24,7 @@ export const items =  [
       title: "Xiaomi Pad 6",
       imgSrc: 'https://m.media-amazon.com/images/I/51b9LjzmPCL._SL1080_.jpg',
       amazonLink: 'https://amzn.to/3ZeNRdY',
-      description: 'Xiaomi Pad 6| Qualcomm Snapdragon 870| ',
+      description: 'Xiaomi Pad 6| Qualcomm | ',
       price: '29999',
     },
     {
@@ -38,10 +39,10 @@ export const items =  [
     {
       id: 6,
       category: 'tablets',
-      title: "Lenovo Tab P12 Pro AMOLED",
+      title: "Lenovo Tab P12 Pro",
       imgSrc: 'https://m.media-amazon.com/images/I/51b9LjzmPCL._SL1080_.jpg',
       amazonLink: 'https://amzn.to/3RabsdH',
-      description: 'Lenovo Tab P12 Pro AMOLED (12.6 inch (32 cm), 8 GB, 256 GB, Wi-fi Only), Storm Grey with Precision Pen 3',
+      description: 'Lenovo Tab P12 Pro AMOLED (12.6)',
       price: '19999',
     },
     {
@@ -68,7 +69,7 @@ export const items =  [
       title: "Samsung Galaxy Tab A8",
       imgSrc: 'https://m.media-amazon.com/images/I/51b9LjzmPCL._SL1080_.jpg',
       amazonLink: 'https://amzn.to/3Pdsh4F',
-      description: 'Samsung Galaxy Tab A8 26.69cm (10.5 inch) Display, RAM 4 GB, ROM 64 GB Expandable, Wi-Fi Tablet, Gray, (SM-X200NZAEINU)',
+      description: 'Samsung Galaxy Tab A8 26.69cm (10.5 inch) Display',
       price: '49999',
     },
     {
@@ -77,9 +78,7 @@ export const items =  [
       title: "Apple MacBook Air Laptop",
       imgSrc: 'https://m.media-amazon.com/images/I/71TPda7cwUL._SL1500_.jpg',
       amazonLink: 'https://amzn.to/3r9rvhm',
-      description: 'Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, ',
+      description: 'Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm , ',
       price: '89999',
     },
-
-
   ]

@@ -13,14 +13,12 @@ const ProductDetail = ({ cart, setCart }) => {
 
   useEffect(() => {
     const filterProduct = items.filter((prodcut) => prodcut.id == id);
-    //  console.log(filterProduct)
     setProduct(filterProduct[0]);
 
     const relatedProducts = items.filter(
       (suman) => suman.category === product.category
     );
 
-    // console.log("RelatedProduct = ",relatedProducts)
     setRelatedProducts(relatedProducts);
   }, [id, product.category]);
 
